@@ -154,6 +154,77 @@
         </div>
     </section>
 
+    <!-- PANEL DE CONTROL - CONSTRUCTORAS Y CONTRATISTAS   -->
+    <section id="panel" class="section panel-section">
+        <div class="panel-header">
+            <h2>Panel de control para constructoras y contratistas</h2>
+            <div class="panel-tabs">
+                <button class="panel-tab panel-tab--active">Inventario</button>
+                <button class="panel-tab">Mapa</button>
+                <button class="panel-tab">Matches</button>
+                <button class="panel-tab">Reportes</button>
+            </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="panel-kpis">
+            <div class="panel-kpi-card">
+                <span class="panel-kpi-value">48 t</span>
+                <span class="panel-kpi-label">Toneladas registradas</span>
+            </div>
+            <div class="panel-kpi-card">
+                <span class="panel-kpi-value">62%</span>
+                <span class="panel-kpi-label">RCD reutilizado</span>
+            </div>
+            <div class="panel-kpi-card">
+                <span class="panel-kpi-value">12.4 t</span>
+                <span class="panel-kpi-label">Ahorro CO2</span>
+            </div>
+            <div class="panel-kpi-card">
+                <span class="panel-kpi-value">7</span>
+                <span class="panel-kpi-label">Matches activos</span>
+            </div>
+        </div>
+
+        <!-- Formulario + Lotes -->
+        <div class="panel-body">
+
+            <!-- Formulario: Registrar nuevo lote -->
+            <div class="panel-form-card">
+                <h3>Registrar nuevo lote RCD</h3>
+                <div class="panel-form">
+                    <input type="text" placeholder="Tipo de material">
+                    <input type="text" placeholder="Volumen disponible">
+                    <input type="text" placeholder="Estado del residuo">
+                    <input type="text" placeholder="Ubicación de obra">
+                    <input type="text" placeholder="Foto / evidencia">
+                    <button class="primary-btn panel-form-btn">Guardar lote</button>
+                </div>
+            </div>
+
+            <!-- Lotes en seguimiento -->
+            <div class="panel-lotes-card">
+                <h3>Lotes en seguimiento</h3>
+                <div class="panel-lotes">
+                    <div class="panel-lote panel-lote--disponible">
+                        <span class="panel-lote-dot panel-lote-dot--disponible"></span>
+                        <span>Concreto triturado · <strong>Disponible</strong> · San Borja</span>
+                    </div>
+                    <div class="panel-lote panel-lote--solicitado">
+                        <span class="panel-lote-dot panel-lote-dot--solicitado"></span>
+                        <span>Ladrillos · <strong>Solicitado</strong> · La Molina</span>
+                    </div>
+                    <div class="panel-lote panel-lote--traslado">
+                        <span class="panel-lote-dot panel-lote-dot--traslado"></span>
+                        <span>Metal recuperado · <strong>En traslado</strong> · San Isidro</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================================================ -->
+
     <section class="section" id="contacto">
         <div class="section-title">
             <h2>Contáctanos</h2>
