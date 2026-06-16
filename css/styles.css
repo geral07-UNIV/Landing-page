@@ -646,6 +646,13 @@ body {
         text-align: center;
     }
 
+    .panel-map-layout {
+        grid-template-columns: 1fr !important;
+    }
+    #map {
+        height: 300px;
+    }
+
     #impacto .image-card {
         text-align: center;
         margin-top: 20px;
